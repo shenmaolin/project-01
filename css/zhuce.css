@@ -1,0 +1,105 @@
+.biaoti{
+    height: 82px;
+    border-bottom: 3px solid #b1191a;
+    line-height: 82px;
+    margin-left: 20px;
+}
+.zc1{
+    margin-top: 25px;
+    height: 42px;
+    background-color: #ececec;
+}
+.zc11{
+    float: left;
+}
+.zc1 h4{
+    float: left;
+    line-height: 42px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+}
+.zc1 .zc12{
+    float: right;
+    line-height: 42px;
+    margin-right: 15px;
+}
+
+.zhuce .zc2 {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.zhuce .zc2 ul li{
+    margin-bottom: 25px;
+}
+.zhuce .zc2 ul li label{
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+}
+.zhuce ul li input{
+    width: 240px;
+    height: 35px;
+    border: 1px solid green;
+}
+.zhuce ul li i{
+    margin-left: 15px;
+}
+.zhuce ul .aq{
+    margin-left: 145px;
+    margin-top: -15px;
+}
+.zhuce ul .aq i{
+    margin: 0;
+    color: #fff;
+    padding: 0 15px;
+}
+.i1{
+    background-color: red;
+}
+.i2{
+    background-color: green;
+}
+.i3{
+    background-color: yellow;
+}
+.agree{
+    
+    padding-left: 95px;
+}
+.agree input{
+    vertical-align: middle;
+width: 12px !important;
+height: 12px !important;
+}
+.agree a {
+    color: #1ba1e6;
+}
+ .zhuce ul li .btn{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 110px ;
+   
+}
+.mod-three{
+    border-top: 1px solid #000;
+    height: 120px;
+}
+.mod-three ul{
+    font-size: 12px;
+margin-top: 20px ;
+text-align: center;
+}
+.mod-three p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    }
+    .w{
+        width: 1200px;
+        margin: 0 auto;
+    }

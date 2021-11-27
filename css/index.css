@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;}
+    
+.mian{
+    margin-top: 10px;
+    height: 460px;
+}
+.mian .focus {
+    position: relative;
+   float: left;
+    margin-left: 220px;
+    height: 460px;
+    width: 721px;
+    overflow: hidden;
+}
+.focus .arrow-l{
+    position: absolute;
+    right: 0; 
+top: 50%;
+text-align: center;
+line-height: 20px;
+width: 20px;
+height: 20px;
+background: rgba(0, 0, 0, .3);
+display: none;
+z-index: 2;
+}
+.focus .arrow-r{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+height: 20px;
+background: rgba(0, 0, 0, .3);
+display: none;
+z-index: 2;
+}
+.focus ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+}
+.focus ul li{
+    float: left;
+}
+.clc{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    background-color:transparent;
+}
+.clc li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: #000;
+}
+
+.clc .current{
+    background-color: #fff;
+}
+.mian .kb{
+    float: right;
+    margin-left: 8px;
+    height: 455px;
+    width: 250px;
+    background-color: #fff;
+}
+.mian .kb-one{
+    position: relative;
+    width: 250px;
+    height: 33px;
+    border: 1px dotted #e8e8e7;
+}
+.mian .kb-one h4{
+line-height: 33px;
+margin-left: 20px;
+font-size: 14px;
+}
+.mian .kb-one a{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.mian .kb-one a::after{
+    content: "\e920";
+    font-family: 'icomoon';
+margin-left: 5px;
+}
+.mian .kb .kb-two{
+    width: 250px;
+    height: 132px;
+    border: 1px solid #e8e8e7;
+    border-top: 0;
+   
+}
+.mian .kb-two {
+    padding: 5px 15px 0;
+}
+.kb-two ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.kb-three{
+    overflow: hidden;
+    height: 210px;
+    border-left: 1px solid #e8e8e7;
+    border-right: 1px solid #e8e8e7;
+}
+.kb-three ul {
+    width: 252px
+}
+.kb-three ul li{
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right:1px solid #e8e8e7 ;
+    border-bottom:1px solid #e8e8e7 ;
+    text-align: center;
+}
+.kb-three ul li i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.kb-four{
+    margin-top: 5px;
+}
+.tj{
+    height: 165px;
+    margin-top: 12px;
+}
+.tj .tj-one{
+    float: left;
+    height: 165px;
+    width: 200px;
+    line-height: 165px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.tj-two{
+    float: left;
+}
+.tj-two ul li{
+    float: left;
+    width: 250px;
+    height: 165px
+}
+.tj-two ul li img{
+    width: 250px;
+    height: 165px
+}
+.tj-two ul li:hover img{
+transform: scale(1.1);
+}
+.jd .jd-one{
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.jd .jd-one h4{
+    float: left;
+    font-size: 18px;
+}
+.jd .jd-one ul{
+    float: right;
+}
+.jd .jd-one ul li{
+    float: left;
+    line-height: 30px;
+
+}
+.jd .jd-one ul li a{
+    padding: 0 16px;
+}
+.jd-two{
+    background-color: #f9f9f9;
+    height: 360px;
+}
+.jd-two .jdt-one{
+    float: left;
+    width: 210px;
+    height: 360px;
+    text-align: center;
+}
+.jd-two .jdt-one ul li{
+    float: left;
+    padding: 10px 12px;
+    margin: 0 10px;
+    border-bottom: 1px solid #ededed;
+}
+.jd-two .jdt-one img{
+    margin-top: 10px;
+}
+.col-330{
+    float: left;
+    width: 330px;
+}
+div[class^=col-220]{
+    float: left;
+    width: 220px;
+}
+.col-220-1 a{
+display: inline-block;
+}
+.col-220-1 {
+    border-right: 1px solid red;
+}
+.col-220-3{
+    border-left: 1px solid red;
+}
+.bb{
+border-bottom: 1px solid red;
+}

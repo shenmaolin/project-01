@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;}
+    
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 31px;
+    background-color: #f1f1f1;
+}
+header .fl{
+    float: left;
+    width: 190px;
+}
+header .fl li{
+    float: left;
+    line-height: 31px;
+    text-align: center;
+}
+header .fl a:nth-of-type(2){
+    color: red;
+}
+header .fr{ float: right;}
+header .fr li{
+    float: left;
+    line-height: 31px;
+
+}
+header .fr li:nth-child(even){
+
+    width: 1px;
+    height: 12px;
+    background-color: #6b6b6b;
+    margin: 9px 16px 0;
+}
+.fr .arrow-icon::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+section{
+    position: relative;
+    height: 106px;
+}
+section .logo{
+    position: absolute;
+    left: 0;
+    top: 27px;
+    float: left;
+    height: 55px;
+    width: 220px;
+}
+section .search{
+    position: absolute;
+    left: 350px;
+    top: 26px;
+   width: 540px;
+   height: 36px;
+   border: 2px solid red;
+
+}
+.search input{
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 12px;
+}
+.search button{
+    float: left;
+    width: 86px;
+    height: 32px;
+    background-color: #b2191b;
+    font-size: 16px;
+    color: #fff;
+}
+.shopcar{
+    position: absolute;
+    right: 65px;
+    top: 26px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dbdbdb;
+    line-height: 35px;
+    text-align: center;
+}
+.shopcar::after{
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+.shopcar::before{
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 5px;
+    color: red;
+}
+.shopcar .shuliang{
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    border-radius: 8px 8px 8px 0;
+    width: 16px;
+    height: 16px;
+    background-color: #eb0013;
+    color: #fff;
+    line-height: 16px;
+}
+ .hotwords{
+position: absolute;
+left: 360px;
+top: 70px;
+width: 480px;
+    height: 20px;
+}
+.hotwords ul li{
+    float: left;
+}
+.hotwords ul li:nth-child(even){
+    margin: 0 24px;
+}
+.hotwords ul li:nth-child(-n+1) a{
+    color: red;
+}
+nav {
+    height: 48px;
+    border-bottom:2px solid red;
+}
+nav .nav-one{
+    float: left;
+    height: 48px;
+    width: 210px;
+    background-color: #b2191b;
+}
+nav .nav-one .dt a{
+    line-height: 48px;
+    padding: 0 50px;
+    color: #fff;
+    font-size: 18px;
+}
+nav .dd{
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+nav .nav-one ul li{
+    display: block;
+    position: relative;
+    float: left;
+    height: 31px;
+    width: 210px;
+    background-color: #c81623;
+}
+
+nav .nav-one ul li a{
+    color: #fff;
+    line-height: 31px;
+    font-size: 14px;
+}
+nav .dd ul li a::after{
+    position: absolute;
+    right: 12px;
+    content: '\e920';
+    font-family: 'icomoon';
+}
+nav .dd ul li:hover {
+background-color: #fff;
+}
+nav .dd ul li:hover a{ 
+    color: red;
+}
+nav .nav-two {
+    float: left;
+    margin-left: 42px;
+    height: 45px;
+}
+nav .nav-two ul li{
+    float: left;
+    line-height: 45px;
+}
+nav .nav-two ul li a{
+    
+    font-size: 14px;
+    color: #333333;
+}
+nav .nav-two ul li:nth-child(2n) a{
+padding: 0 50px;
+}
+footer{
+    margin-top: 15px;
+    height: 420px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+footer .mod-one{
+    height: 110px;
+    border-bottom: 1px solid #d2d2d2;
+}
+footer .mod-one ul{
+    padding: 30px 35px 0;
+    
+}
+footer .mod-one ul li{
+    float: left;
+    width: 170px;
+    height: 50px;
+}
+footer .mod-one ul li:nth-child(-n+4){
+    margin-right: 70px;
+}
+footer .mod-one ul li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 5px;
+}
+footer .mod-one ul li h4{
+font-size: 14px;
+
+}
+footer .mod-one ul li p{
+    font-size: 12px;
+}
+footer .mod-two{
+    height: 190px;
+    border-bottom: 1px solid #d2d2d2;
+    
+}
+footer .mod-two dl{
+    float: left;
+    padding: 20px 10px 0;
+    width: 175px;
+    
+}
+footer .mod-two dl:nth-child(-n+1){
+    margin-left: 50px;
+}
+footer .mod-two dl dt{
+    font-size: 16px;
+    font-weight: 1000;
+}
+footer .mod-two dl dd{
+    color: #323232;
+}
+footer .mod-two dl:last-child{
+text-align: center;
+width: 100px;
+}
+.mod-three{
+    height: 120px;
+}
+.mod-three ul{
+    font-size: 12px;
+margin-top: 20px ;
+text-align: center;
+}
+.mod-three p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    }
