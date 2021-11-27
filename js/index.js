@@ -1,3 +1,4 @@
+//沈卯霖
 window.addEventListener('load',function(){
    var focus=this.document.querySelector('.focus')
    var arrowl=this.document.querySelector('.arrow-l')
